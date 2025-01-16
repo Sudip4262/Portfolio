@@ -18,7 +18,6 @@ export default function HomePage() {
   const time = new Date()
   let hour = time.getHours()
   console.log(time)
-  console.log(window.innerWidth)
 
 
   // useEffect(() => {
@@ -50,7 +49,7 @@ export default function HomePage() {
 
 
   return (
-    <div className='none'>
+    <div className='HomeWholeContainer'>
       <div className='wholeContainer1' style={{backgroundImage:`url(photos/background1.jpg)`}}>
         <div className='container1'>
           {hello()}

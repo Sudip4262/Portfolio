@@ -13,13 +13,13 @@ export default function () {
   return (
     <div>
       <BrowserRouter>
-      <NavtabBar/>
+        <NavtabBar/>
         <Routes>
           <Route exact path='/' element={<HomePage/>} ></Route>
           <Route exact path='/Projects' element={<Projects/>} ></Route>
           <Route exact path='/AboutMe' element={<AboutMe/>} ></Route>
         </Routes>
-      <Footer/>
+        <Footer/>
       </BrowserRouter>
     </div>
   )
