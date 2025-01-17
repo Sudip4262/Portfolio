@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import {Routes, Route, HashRouter } from 'react-router-dom'
 
 
 import HomePage from './components/HomePage'
@@ -12,7 +12,7 @@ import AboutMe from './components/AboutMe'
 export default function () {
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <NavtabBar/>
         <Routes>
           <Route exact path='/' element={<HomePage/>} ></Route>
@@ -20,7 +20,7 @@ export default function () {
           <Route exact path='/AboutMe' element={<AboutMe/>} ></Route>
         </Routes>
         <Footer/>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   )
 }
