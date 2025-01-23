@@ -9,7 +9,7 @@ export default function NavtabBar() {
   return (
     <>
       <div style={{ display:'flex', flexDirection:'row', padding:10 , backgroundColor:'#000', justifyContent:'space-between', alignItems:'center', position:'fixed',top:0,width:'100%'}}>
-        <Link to='/'><img src='photos/NameLogoWhite.png' className='logoImage' /></Link>
+        <Link to='/'><img src={`${process.env.PUBLIC_URL}/photos/NameLogoWhite.png`} className='logoImage' /></Link>
         <p className='menuToggle' onClick={() => {setMenu(!menu)}} >MENU <FaList size={14}/></p>
         <div className={`dropdown-menu ${menu? 'active' : 'inactive'}`} style={{display:'flex', flexDirection:'row', }}>
             <div style={{display:'flex'}}>

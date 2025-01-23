@@ -263,6 +263,18 @@ a{
   overflow: hidden;
 }
 
+.ProjectAboutBox{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: auto;
+  border: 1px solid rgba(255, 255, 1, 1);
+  border-radius: 10px;
+  margin: auto;
+  margin-top: -15px;
+}
+
+
 .AboutDownText{
   color:#fff; 
   font-size:20px;
@@ -378,6 +390,107 @@ a{
 
 /*homepage*/
 /*homepage*/
+
+/*project*/
+/*project*/
+
+
+.ProjectImg{
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.ProjectImg:hover{
+  opacity: 0.8;
+}
+
+.ProjectCravingsName{
+  font-family: "DM Serif Text", serif ;
+  font-weight: 400;
+  font-size: 40px;
+  color: #fff;
+  margin: 10px;
+}
+
+.ProjectCravingsDesignation{
+  font-family: "DM Serif Text", serif ;
+  font-weight: 100;
+  font-size: 20px;
+  color: #fff;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+.ProjectCravingsDesc{
+  font-weight: 100;
+  font-size: 16px;
+  color: #fff;
+  margin: 10px;
+  margin-left: 10px;
+}
+
+.ProjectShowBox{
+  background-color: aqua;
+  color: #fff;
+  font-family:  "DM Serif Text", serif;
+  font-size: 20px;
+}
+
+
+.VisitWebsiteText{
+  font-family: "DM Serif Text", serif ;
+  font-weight: 100;
+  font-size: 20px;
+  color: #000;
+  margin: 0px;
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  background-color: aqua;
+  cursor: pointer;
+  margin-top: 10px;
+  border: 0.5px solid black;
+}
+
+.VisitWebsiteText:hover{
+  background-color: #000;
+  color: #fff;
+  border: 0.5px solid rgba(255, 255, 1, 1);
+}
+
+.KnowWebsiteText{
+  font-family: "DM Serif Text", serif ;
+  font-weight: 100;
+  font-size: 20px;
+  color: #fff;
+  margin: 0px;
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  background-color: #242424;
+  cursor: pointer;
+  margin-top: 10px;
+  border: 0.5px solid black;
+}
+
+.KnowWebsiteText:hover{
+  background-color: #000;
+  color: #fff;
+  border: 0.5px solid rgba(255, 255, 1, 1);
+}
+
+
+/*project*/
+/*project*/
 
 
 
@@ -930,11 +1043,10 @@ a{
     font-size:14px;
   }
 
-
-
-
   /*footer*/
   /*footer*/
 
 }
+
+
 

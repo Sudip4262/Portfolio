@@ -23,7 +23,7 @@ export default function Footer() {
       </div>
       <div style={{display:'flex', flex:1,flexDirection:'column'}}>
         <div style={{display:'flex', flex:5, justifyContent:'flex-end', alignItems:'flex-end'}}>
-          <Link to='/'><img src='photos/NameLogoWhite.png' className='bottomLogo' ></img></Link>
+          <Link to='/'><img src={`${process.env.PUBLIC_URL}/photos/NameLogoWhite.png`} className='bottomLogo' ></img></Link>
         </div>
         <div style={{display:'flex', flex:1, justifyContent:'flex-end', alignItems:'flex-end'}}>
           <p className='bottomHey'>* Heyy, This website is created using React</p>

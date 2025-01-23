@@ -50,7 +50,7 @@ export default function HomePage() {
 
   return (
     <div className='HomeWholeContainer'>
-      <div className='wholeContainer1' style={{backgroundImage:`url(photos/background1.jpg)`}}>
+      <div className='wholeContainer1' style={{backgroundImage:`url(${process.env.PUBLIC_URL}/photos/background1.jpg)`}}>
         <div className='container1'>
           {hello()}
           <h1 className='heading' style={{marginTop:-40}} >SUDIP PAUL</h1>
