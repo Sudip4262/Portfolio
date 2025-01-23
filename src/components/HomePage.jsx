@@ -120,10 +120,6 @@ export default function HomePage() {
             <FaReact className='skillsLogo' />
             <p className='SkillsName' >React</p>
           </div>
-          <div className='skillsFlexItem' >
-            <FaPython className='skillsLogo' />
-            <p className='SkillsName' >Python</p>
-          </div>
           <div className='skillsFlexItem'>
             <IoLogoHtml5 className='skillsLogo' />
             <p className='SkillsName' >HTML</p>
@@ -139,10 +135,6 @@ export default function HomePage() {
           <div className='skillsFlexItem' >
             <SiMongodb className='skillsLogo' />
             <p className='SkillsName' >MongoDB</p>
-          </div>
-          <div className='skillsFlexItem' >
-            <SiDjango className='skillsLogo' />
-            <p className='SkillsName' >Django</p>
           </div>
           <div className='skillsFlexItem' >
             <SiAdobexd className='skillsLogo' />
