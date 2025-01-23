@@ -59,23 +59,14 @@ export default function HomePage() {
 
           <p className='alternateText'>React and ReactNative developer </p>
           <p className='alternateText'>with a bit knowledge in MERN </p>
-
-          <div className='newButtons' >
-            <Link to='/Projects' className='newbuttonsLink'>
-              <p className='newButtonText' >PROJECTS</p>
-            </Link>
-            <div className='newbuttonsLink'>
-              <a href='#AboutMe' className='newButtonText' >ABOUT ME</a>
-            </div>
-          </div>
         </div>
         <div className='container2'>
           <Link to='/Projects' className='sideLink' >
             <p className='NewPage' >PROJECTS</p>
           </Link>
-          <div className='sideLink' >
-            <a href='#AboutMe' className='NewPage' >ABOUT ME</a>
-          </div>
+          <Link to='/Projects' className='sideLink' >
+            <p className='NewPage' >ABOUT ME</p>
+          </Link>
         </div>
       </div>
 
@@ -91,9 +82,9 @@ export default function HomePage() {
             <Link to='/Projects' className='newbuttonsLink'>
               <p className='newButtonText' >Projects</p>
             </Link>
-            <div className='newbuttonsLink'>
-              <a className='newButtonText' href='#AboutMe' >About Me</a>
-            </div>
+            <Link to='/Projects' className='newbuttonsLink' >
+              <p className='NewPage' >ABOUT ME</p>
+            </Link>
           </div>
         </div>
       </div>
