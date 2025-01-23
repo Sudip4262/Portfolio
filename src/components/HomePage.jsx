@@ -83,7 +83,7 @@ export default function HomePage() {
               <p className='newButtonText' >Projects</p>
             </Link>
             <Link to='/Projects' className='newbuttonsLink' >
-              <p className='NewPage' >ABOUT ME</p>
+              <p className='newButtonText' >About Me</p>
             </Link>
           </div>
         </div>
