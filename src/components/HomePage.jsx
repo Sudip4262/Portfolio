@@ -62,7 +62,7 @@ export default function HomePage() {
         </div>
         <div className='container2'>
           <Link to='/Projects' className='sideLink' >
-            <p className='NewPage' >PROJECTSssss</p>
+            <p className='NewPage' >PROJECTS</p>
           </Link>
           <Link to='/Projects' className='sideLink' >
             <p className='NewPage' >ABOUT ME</p>
